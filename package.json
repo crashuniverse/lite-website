@@ -1,0 +1,28 @@
+{
+  "name": "lite-website",
+  "version": "1.0.0",
+  "description": "Experiments to make light websites",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel scripts -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crashuniverse/lite-website.git"
+  },
+  "keywords": [
+    "light",
+    "webapp"
+  ],
+  "author": "Priya Ranjan Singh",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/crashuniverse/lite-website/issues"
+  },
+  "homepage": "https://github.com/crashuniverse/lite-website#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
